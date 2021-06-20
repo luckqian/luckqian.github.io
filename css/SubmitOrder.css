@@ -1,0 +1,374 @@
+/* 提交订单页面专有样式表 */
+/* 字体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+.submit_hd {
+    
+    margin-top: 20px;
+    height: 787px;
+    border: solid 1px #dddddd;
+}
+
+
+.submit_hd .information_hd {
+    float: left;
+    width: 1148px;
+    height: 120px;
+    /* background-color: pink; */
+    /* margin: 0 auto; */
+    margin-left: 26px;
+    margin-top: 41px;
+    padding-left: 25px;
+    padding-right: 36px;
+    border-bottom: 1px solid #ededed;
+}
+.submit_hd .information_hd a{
+    float: right;
+    font-family: SimSun;
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #1474af;
+}
+
+.information_first {
+    height: 45px;
+}
+
+.submit .submit_hd .information_hd h3 {
+    float: left;
+}
+
+
+.submit_hd .information_hd .information_bd {
+    height: 40px;
+}
+.submit_hd .information_hd .information_bd span,p{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+.submit_hd .information_hd .information_bd p {
+    margin-left: 10px;
+}
+
+.submit_hd .information_hd .information_bd span {
+    display: block;
+    width: 144px;
+	height: 30px;
+	background-color: #ffffff;
+	border: solid 2px #c81623;
+}
+
+.information_hd .more_address {
+    float: left;
+}
+
+.information_hd .more_address::after{
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.submit_hd .second_floor {
+    float: left;
+    width: 1148px;
+    height: 56px;
+    /* background-color: pink; */
+    margin-left: 26px;
+}
+
+.second_floor  {
+    margin-top: 20px;
+    padding-left: 25px;
+    border-bottom: 1px solid #ededed;
+}
+
+.second_floor  .information_bd span,p{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+.second_floor  .information_bd p {
+    margin-left: 10px;
+}
+.second_floor .information_bd span {
+    display: block;
+    width: 144px;
+	height: 30px;
+	background-color: #ffffff;
+	border: solid 2px #c81623;
+}
+
+.Third_floor {
+    float: left;
+    width: 1148px;
+    height: 105px;
+    /* background-color: pink; */
+    margin-left: 26px;
+    padding-left: 25px;
+    border-bottom: 1px solid #ededed;
+    
+}
+
+.Third_floor h3 {
+    margin-top: 20px;
+    height: 45px;
+
+}
+
+.Third_floor span {
+    float: left;
+    display: block;
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    /* background-color: skyblue; */
+    border: solid 1px #dddddd;
+}
+
+.Third_floor .pay {
+    margin-left: 10px;
+    border: solid 2px #c81623;
+}
+
+.Third_floor .more {
+    border: solid 0 #dddddd;
+}
+
+.Third_floor .more::after{
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.Fourth_floor {
+    float: left;
+    height: 333px;
+    width: 1148px;
+    /* background-color: pink; */
+    margin-left: 25px;
+    border-bottom: 1px solid #ededed;
+    
+}
+
+.Fourth_floor>h3 {
+    padding-left: 26px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.Fourth_floor .Fourth_floor_first {
+    height: 101px;
+    width: 1148px;
+    background-color: #f4f4f4;
+}
+
+.Fourth_floor_first h3 {
+    padding-left: 26px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Fourth_floor_first .information_bd span,p{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+.Fourth_floor_first  .information_bd p {
+    margin-left: 10px;
+}
+.Fourth_floor_first .information_bd span {
+    display: block;
+    margin-left: 44px;
+    width: 144px;
+	height: 30px;
+	background-color: #ffffff;
+	border: solid 2px #c81623;
+}
+
+.Fourth_floor_first .information_bd a {
+    float: right;
+    margin-right: 35px;
+    color: #1474af;
+}
+
+.Fourth_floor_second {
+    position: relative;
+    height: 153px;
+    width: 1148px;
+    background-color: #feedef;
+}
+
+.Fourth_floor_second>h3 {
+    margin-left: 26px;
+    padding-top: 20px;
+}
+.Fourth_floor_second .pic    {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.Fourth_floor_second .xinxi {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 53px;
+    width: 392px;
+    height: 33px;
+    margin-left: 237px;
+}
+.Fourth_floor_second .right {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 342px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    /* background-color: black; */
+}
+.Fourth_floor_second .right span {
+    margin-left: 62px;
+
+}
+
+.Fourth_floor_second .right .have {
+    margin-right: 35px;
+}
+
+.Fourth_floor_second .right .money {
+    font-size: 14px;
+    color:#e12228;
+}
+
+
+.Fourth_floor_second .xinxi h3 {
+    margin-top: 20px;
+    color: #c81623;
+}
+
+
+/* 四楼开始 */
+.Fifth_floor {
+    float: left;
+    width: 1148px;
+    height: 110px;
+    margin-left: 25px;
+    /* background-color: skyblue; */
+}
+
+.Fifth_floor h3 {
+    margin-top: 10px;
+    padding-left: 26px;
+}
+
+.Fifth_floor ul{
+    height: 10px;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Fifth_floor ul li {
+    float: left;
+    
+    margin-right: 30px;
+
+}
+
+.Fifth_floor ul li:nth-child(4) a {
+    color: #1474af;
+}
+
+.Fifth_floor .discount::after {
+    content: "\e91e";
+    font-family: "icomoon";
+    padding-left: 10px;
+}
+
+/* 四楼结束 */
+
+/* 提交订单submit_bd部分 开始 */
+.submit_bd {
+    height: 264px;
+    width: 1200px;
+    /* background-color: pink; */
+}
+
+.submit_bd .submit_bd_firstfloor {
+    /* margin-left: 25px; */
+    border-bottom: 1px solid #ededed;
+    height: 94px;
+    width: 1200px;
+    padding-right: 30px;
+    /* background-color: skyblue; */
+}
+
+.bd_firstfloor_one ul{
+    margin-top: 25px;
+    float: right;
+    text-align: right;
+    width: 128px;
+    height: 58px;
+    
+    /* background-color: black; */
+}
+
+.submit_bd .bd_secondfloor {
+    background-color: #f4f4f4;
+    position: relative;
+    padding-right: 30px;
+    /* margin-left: 25px; */
+    border-bottom: 1px solid #ededed;
+    height: 80px;
+    width: 1200px;
+    /* background-color: #f4f4f4; */
+}
+
+.bd_secondfloor span {
+float: right;
+margin-top: 20px;
+}
+.bd_secondfloor span h3 {
+    display: inline;
+}
+
+.bd_secondfloor .a {
+    padding-right: 40px;
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+.button_submit {
+    height: 98px;
+    /* background-color: black; */
+}
+
+.button_submit button {
+    float: right;
+    width: 142px;
+    height: 46px;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #df3033;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* 提交订单submit_bd部分 结束 */
