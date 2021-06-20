@@ -1,0 +1,101 @@
+/* 轮播图样式表 */
+ * {
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}
+.box {
+	width:721px;
+	height:455px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	background-color: #fff;
+}
+.box .swiper li {
+    list-style: none;
+    height: 455px; 
+	
+}
+.box .swiper li img:hover{
+    cursor:pointer ;
+}
+/* li{
+	list-style:none;
+	width:100%;
+	height:455px;
+} */
+/* .swiper {
+    list-style:none;
+	width:100%;
+	height:300px;
+} */
+/* img {
+	width:100%;
+	height:100%;
+	vertical-align:top;
+} */
+.active img {
+    width:100%;
+    height:100%;
+	vertical-align:top;
+}
+.swiper {
+	width:500%;
+	height:300px;
+	position:absolute;
+	left:0;
+	top:0;
+	
+}
+.swiper li {
+	width:20%;
+	float:left;
+}
+.swiper li img {
+	width:100%;
+}
+.dot {
+	position:absolute;
+	display:flex;
+	right:50%;
+	bottom:0;
+	transform:translate(50%,0);
+	margin-bottom:8px;
+}
+.dot li {
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:#fff;
+	margin-right:5px;
+}
+.dot .active {
+	background-color:burlywood;
+}
+
+.dot li {
+    list-style: none    ;
+}
+.left,.right {
+	font-family: "宋体";
+	width:60px;
+	height:60px;
+	background-color:rgba(0,0,0,0.6);
+	position:absolute;
+	top:50%;
+	transform:translate(0,-50%);
+	color:yellowgreen;
+	font-size:50px;
+	text-align:center;
+	line-height:60px;
+	cursor:pointer;
+	
+}
+.left {
+	border-radius: 0 30px 30px 0;
+}
+.right {
+	right:0;
+	border-radius: 30px 0 0 30px;
+}

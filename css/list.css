@@ -1,0 +1,138 @@
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    border-left: 1px solid #b1191a;
+    padding-left: 10px;
+
+}
+
+.sk_list ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 13px 30px;
+}
+
+.sk_con ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 13px 22px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+
+.sk_bd ul {
+    margin-top: 25px;
+}
+
+/* 存放一件商品的盒子 */
+.sk_bd ul li {
+
+    width: 288px;
+    height: 444 px;
+    float: left;
+    /* background-color: pink;  */
+    margin-right: 15px;
+    transition: border .5s .1s;
+}
+
+.sk_bd ul li:hover {
+    border: solid 1px #ed282e;
+}
+
+.sk_bd ul li img:hover {
+    cursor: pointer;
+}
+
+/* 商品预览图 */
+.sk_bd ul li img {
+    width: 100%;
+
+}
+
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+/* 商品描述模块 */
+.sk_bd ul li .sk_bd_describe {
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+/* 商品价格模块（现价和折扣价） */
+.sk_bd ul li .newPrice {
+
+    font-size: 22px;
+    color: #e60012;
+    margin-left: 10px;
+
+}
+
+
+.sk_bd ul li .oldPrice {
+
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.money {
+    float: left;
+    width: 100%;
+}
+
+.sk_bd ul li .sold,
+.Unsold {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: '宋体';
+}
+
+.sk_bd ul li .Unsold a {
+    color: #ed282e;
+}
+
+/* 进度条区域 */
+.sk_bd ul li .progress_bar {
+    float: left;
+    margin-top: 6px;
+    margin-left: 3px;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #ed282e;
+    border-radius: 8px;
+}
+
+.sk_bd ul li .progress_bar2 {
+    border-radius: 8px;
+
+    width: 100px;
+    height: 10px;
+    background-color: #ed282e;
+}
+
+/* 商品底部抢购按钮 */
+.sk_bd ul li button {
+    width: 100%;
+    height: 50px;
+    background-color: #b1191a;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: '宋体';
+}
+
+
+.footer {
+    float: left;
+    /* margin-left: 30px; */
+    width: 100%;
+}

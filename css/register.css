@@ -1,0 +1,129 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w header {
+    height: 84px;
+    border-bottom: 1px solid #b1191a;
+}
+
+.w header .logo {
+    padding-top: 16px;
+}
+.registerarea {
+    margin-top: 10px;
+    height: 524px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    line-height: 40px;
+    padding: 0 10px;
+    background-color: #ececec;
+    height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+.registerarea h3 .login a {
+    color: red;
+}
+
+.reg_form {
+    margin: 30px auto 0;
+    width: 600px;
+    height: 427px;
+    /* background-color: pink; */
+}
+
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li  label {
+    display: inline-block;
+    width: 96px;
+    height: 36px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+.reg_form ul li .error{
+    color: #b1191a;
+    margin-left: 10px;
+}
+.error_icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/error_03.png) no-repeat;
+    vertical-align: middle;
+}
+
+.safe {
+    margin-left: 179px;
+}
+.reg_form ul li em {
+   
+    width: 34px;
+    height: 13px;
+    padding: 0 10px;
+    color: #fff;
+}
+.ruo {
+    margin-left: 10px;
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    margin-left: 95px;
+}
+
+.agree a {
+    padding-left: 10px;
+    color: #1ba1e6;
+}
+.btn {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 200px;
+    height: 34px;
+   background-color: #c81623; 
+    font-size: 14px;
+    color: #fff;
+
+
+}
+
+.mod-copyright {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.mod-copyright .link {
+    margin-bottom: 15px;
+}
+
+.mod-copyright .link a {
+    margin: 0 10px;
+}
+
+.mod-copyright .copyright {
+  line-height: 20px;
+
+}
